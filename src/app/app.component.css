@@ -1,0 +1,385 @@
+html,body{
+  font-weight: sans-serif;
+
+}
+
+body{
+  background-color: #ffffff;
+}
+
+#cardOrder{
+  border: 1px solid rgb(237, 128, 64);;
+  border-radius: 17px;
+  padding: 8px 19px;
+  background: red; /* For browsers that do not support gradients */
+  background: linear-gradient(-90deg, red, yellow);
+  color: white;
+}
+
+.navbar{
+  margin-bottom: 6rem;
+}
+.nav-link{
+  color: rgb(246,250,240) !important;
+  font-size: 14px;
+}
+
+.header{
+  background-image: url("../assets/backMain.png");
+  background-size: cover;
+  color: rgb(246,250,240);
+  padding-bottom: 7rem;
+}
+
+.headerRight{
+  display: inline;
+  margin-left: 16rem;
+}
+
+#cardRotate{
+  width: 25%;
+  position: relative;
+  top: -22px;
+  z-index: 1;
+}
+
+#cardBlur{
+  width: 18%;
+  position: relative;
+  left: -10rem;
+  top: -7rem;
+}
+
+
+/*second section*/
+
+#secondSectCard{
+  width: 100%;
+}
+
+#superCardHead{
+  margin-right: 8rem;
+}
+.texts, .texts2{
+  margin-top: 1rem;
+}
+
+.texts h6{
+  text-align: right;
+  color:#60bd6a;
+  font-weight: bold;
+
+}
+
+.texts p{
+  text-align: left;
+  font-size: 13px;
+  color: #c9c9c9;
+}
+
+.texts2 h6{
+  text-align: left;
+  color:#60bd6a;
+  font-weight: bold;
+}
+.texts2 p{
+  text-align: left;
+  font-size: 13px;
+  color: #c9c9c9;
+}
+
+
+/*card receiving terms*/
+
+.cardReceiveTerms{
+  width: 100%;
+  background-image: url("../assets/cardTerms.PNG");
+  background-size: cover;
+  color: #fdfefb;
+  overflow: hidden;
+}
+
+.cardReceiveTerms img{
+  margin-bottom: 3rem;
+}
+.receiveTexts button{
+  float: left;
+  margin-right: 1rem;
+  background: none;
+  border: 1px solid #fdfefb;
+  padding: 6px 12px;
+  color: #fdfefb;
+  font-weight: bold;
+}
+
+.titleText{
+  float: right;
+  text-align: left;
+  position: relative;
+  top:-42px;
+  left: 3rem;
+}
+
+.titleText p{
+  width: 65%;
+}
+
+.textsTop , .textsBottom{
+  margin-left: 28rem;
+
+}
+
+/*taksit*/
+.requestSection{
+  background-color: #f2f4f8;
+}
+.doRequest{
+  background: rgba(145,232,66,1);
+  background: -moz-linear-gradient(left, rgba(145,232,66,1) 72%, rgba(148,233,67,1) 73%, rgba(210,255,82,1) 95%, rgba(210,255,82,1) 99%);
+  background: -webkit-linear-gradient(left, rgba(145,232,66,1) 72%, rgba(148,233,67,1) 73%, rgba(210,255,82,1) 95%, rgba(210,255,82,1) 99%);
+  background: -o-linear-gradient(left, rgba(145,232,66,1) 72%, rgba(148,233,67,1) 73%, rgba(210,255,82,1) 95%, rgba(210,255,82,1) 99%);
+  background: -ms-linear-gradient(left, rgba(145,232,66,1) 72%, rgba(148,233,67,1) 73%, rgba(210,255,82,1) 95%, rgba(210,255,82,1) 99%);
+  background: linear-gradient(to right, rgba(145,232,66,1) 72%, rgba(148,233,67,1) 73%, rgba(210,255,82,1) 95%, rgba(210,255,82,1) 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91e842', endColorstr='#d2ff52', GradientType=1 );
+
+  border-radius: 34px;
+  padding: 12px 21px;
+  position: relative;
+  top: 22px;
+}
+
+/*news*/
+
+.newsBody{
+  text-align: left;
+  -webkit-box-shadow: -4px 12px 52px 11px rgba(224,220,224,1);
+  -moz-box-shadow: -4px 12px 52px 11px rgba(224,220,224,1);
+  box-shadow: -4px 12px 52px 11px rgba(224,220,224,1);
+  margin-left: 6rem;
+  padding-top: 1rem;
+  margin-bottom: 3rem;
+
+}
+
+.arrows{
+  width: 100%;
+}
+
+.arrows img{
+  margin-left: 3rem;
+}
+
+
+/*stayUpdated*/
+.stayUpdated{
+  background: #f2f4f8;
+  display: flex;
+  align-items: center;
+}
+
+.updateText{
+  margin-left: 2rem;
+}
+#email{
+  border-radius: 18px;
+  /* padding: 10px 43px; */
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 25px;
+  padding-right: 50px;
+}
+
+#updateButton{
+  border-radius: 18px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 16px;
+  position: relative;
+  left: -34px;
+  outline: none;
+  background: lightgreen;
+}
+
+/*bazarStore*/
+
+.bazarStore{
+  background-image: url("../assets/storeBack.png");
+  background-size: cover;
+}
+
+.selectedFillial{
+  width: 200px;
+  height: 109px;
+  background: green;
+}
+/*cardOrder*/
+
+.cardOrder{
+  background-image: url("../assets/dddd.png");
+  color: #ffffff;
+  margin-bottom: 5rem;
+}
+
+#orderButton{
+  color: #1aa72b;
+  background: white;
+  border: 1px solid white;
+  border-radius: 13px;
+  padding: 8px 85px;
+  font-weight: bold;
+  box-shadow: 4px 4px 4px 4px grey;
+}
+
+/*fillials*/
+.ourFillials{
+  display: flex;
+  justify-content: center;
+}
+
+.fillials div{
+  width: 140px;
+  border: 1px solid #e6eded;
+  float: left;
+  height: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 5px;
+  background-color: #e6eded;
+
+}
+
+.fillialAddress{
+  background-color: #009833;
+  display: block;
+  color: #ffffff;
+  width: 67.6%;
+  padding: 24px 0;
+}
+
+.fillialAddress img{
+  margin-bottom: 15px;
+}
+
+/*footer*/
+
+footer{
+  background-color: #0c9f2f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+hr.light-100{
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+.lead{
+  text-align: left !important;
+}
+.lead span{
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+
+  #superExtraCard{
+    font-size: 1.4rem;
+  }
+  #superExtraCardDuis{
+    font-size: 1rem;
+  }
+  #SuperExtraCardText{
+    font-size: .8rem;
+  }
+  #cardOrder{
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .navbar-brand img{
+    width: 70% !important;
+  }
+  .nav-link{
+    font-size: 12px;
+    position: relative;
+    left: -5rem;
+  }
+  .fillials{
+    width: 60%;
+
+  }
+  .fillials div{
+    margin-bottom: 10px;
+  }
+}
+
+
+@media (max-width: 992px) {
+.superCard{
+  position: relative;
+  top: -5rem;
+}
+  .nav-link{
+    font-size: 10px;
+    position: relative;
+    left: 0;
+  }
+  .header{
+    background-size: cover;
+  }
+
+  #cardRotate{
+    left: -157px;
+  }
+
+  #cardBlur{
+    left: -15rem;
+    top: -4rem;
+  }
+
+  .receiveTexts{
+    position: relative;
+    left:-5rem;
+  }
+
+  .titleText b{
+    font-size: 14px;
+  }
+  .titleText p{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerRight {
+    position: relative;
+    top: -8rem;
+    left: 19rem;
+  }
+
+
+  .navbar-toggler{
+    position: relative;
+    left: -4rem;
+  }
+
+  .news{
+    width: 70%;
+  }
+}
